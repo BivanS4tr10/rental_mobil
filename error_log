@@ -1,0 +1,178 @@
+[05-Jan-2025 14:26:41 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:04 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 14:28:18 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/akun/detail.php on line 46
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "foto" on null in /home/eloratra/public_html/views/akun/detail.php on line 51
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/akun/detail.php on line 51
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/akun/detail.php on line 58
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "username" on null in /home/eloratra/public_html/views/akun/detail.php on line 63
+[05-Jan-2025 14:28:25 Asia/Jakarta] PHP Warning:  Attempt to read property "id" on null in /home/eloratra/public_html/views/akun/detail.php on line 70
+[05-Jan-2025 15:14:33 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/eloratra/public_html/core/Database.php:7
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(7): mysqli->__construct()
+#1 /home/eloratra/public_html/core/Model.php(8): Database->__construct()
+#2 /home/eloratra/public_html/core/Controller.php(17): Model->__construct()
+#3 /home/eloratra/public_html/controllers/C_Mobil.php(14): Controller->model()
+#4 /home/eloratra/public_html/core/Route.php(35): C_Mobil->__construct()
+#5 /home/eloratra/public_html/core/Route.php(14): Route->_setController()
+#6 /home/eloratra/public_html/index.php(24): Route->__construct()
+#7 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 7
+[05-Jan-2025 15:14:36 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uploads' in 'where clause' in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Mobil.php(36): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Mobil.php(75): M_Mobil->detail()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Mobil->detail()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
+[05-Jan-2025 09:08:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/eloratra/public_html/index.php on line 7
+[05-Jan-2025 09:08:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/eloratra/public_html/index.php on line 7
+[05-Jan-2025 09:08:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/eloratra/public_html/index.php on line 7
+[05-Jan-2025 09:08:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/eloratra/public_html/index.php on line 7
+[05-Jan-2025 17:04:06 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 17:04:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 17:04:06 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 17:04:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 17:11:09 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 17:56:31 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 18:16:32 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 19:00:51 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:00:57 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:00:57 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:00:57 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:01:02 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:01:08 Asia/Jakarta] PHP Warning:  Constant C_PATH already defined in /home/eloratra/public_html/index.php on line 13
+[05-Jan-2025 19:01:08 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:02:12 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:02:24 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 10
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/_partials/topbar.php on line 11
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 105
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 110
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Undefined array key "login" in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 19:47:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/eloratra/public_html/views/dashboard.php on line 115
+[05-Jan-2025 19:47:25 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:37:07 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:37:16 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:45:50 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:45:55 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:59:52 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:59:53 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 14:59:58 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 15:00:14 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 15:01:17 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 15:01:23 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[09-Jan-2025 16:19:22 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[12-Jan-2025 14:27:29 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[12-Jan-2025 14:27:44 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uploads' in 'where clause' in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Mobil.php(36): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Mobil.php(75): M_Mobil->detail()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Mobil->detail()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
+[12-Jan-2025 14:28:02 Asia/Jakarta] PHP Warning:  Attempt to read property "id" on null in /home/eloratra/public_html/views/merk/ubah.php on line 49
+[12-Jan-2025 14:28:02 Asia/Jakarta] PHP Warning:  Attempt to read property "merk" on null in /home/eloratra/public_html/views/merk/ubah.php on line 52
+[12-Jan-2025 14:28:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uploads' in 'where clause' in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Mobil.php(18): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Mobil.php(87): M_Mobil->lihat_id()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Mobil->ubah()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
+[12-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Attempt to read property "id" on null in /home/eloratra/public_html/views/pemesan/ubah.php on line 49
+[12-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/pemesan/ubah.php on line 52
+[12-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Attempt to read property "jenis_kelamin" on null in /home/eloratra/public_html/views/pemesan/ubah.php on line 57
+[12-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Attempt to read property "jenis_kelamin" on null in /home/eloratra/public_html/views/pemesan/ubah.php on line 58
+[12-Jan-2025 14:28:09 Asia/Jakarta] PHP Warning:  Attempt to read property "alamat" on null in /home/eloratra/public_html/views/pemesan/ubah.php on line 64
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 46
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "foto" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 51
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 51
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "nama" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 58
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "jenis_kelamin" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 63
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "alamat" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 68
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "id" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 75
+[12-Jan-2025 14:28:24 Asia/Jakarta] PHP Warning:  Attempt to read property "id" on null in /home/eloratra/public_html/views/pemesan/detail.php on line 76
+[12-Jan-2025 14:28:27 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[12-Jan-2025 14:28:29 Asia/Jakarta] PHP Warning:  Undefined property: mysqli_result::$nama in /home/eloratra/public_html/views/dashboard.php on line 98
+[12-Jan-2025 14:28:45 Asia/Jakarta] PHP Warning:  Attempt to read property "id_pemesan" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 59
+[12-Jan-2025 14:28:45 Asia/Jakarta] PHP Warning:  Attempt to read property "id_mobil" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 60
+[12-Jan-2025 14:28:45 Asia/Jakarta] PHP Warning:  Attempt to read property "id_perjalanan" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 61
+[12-Jan-2025 14:28:45 Asia/Jakarta] PHP Warning:  Attempt to read property "id_jenis_bayar" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 62
+[12-Jan-2025 14:28:45 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Mobil.php(18): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Pesanan.php(68): M_Mobil->lihat_id()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Pesanan->ubah()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Warning:  Attempt to read property "id_pemesan" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 59
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Warning:  Attempt to read property "id_mobil" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 60
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Warning:  Attempt to read property "id_perjalanan" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 61
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Warning:  Attempt to read property "id_jenis_bayar" on null in /home/eloratra/public_html/controllers/C_Pesanan.php on line 62
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Mobil.php(18): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Pesanan.php(68): M_Mobil->lihat_id()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Pesanan->ubah()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
+[12-Jan-2025 14:28:47 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'uploads' in 'where clause' in /home/eloratra/public_html/core/Database.php:12
+Stack trace:
+#0 /home/eloratra/public_html/core/Database.php(12): mysqli->query()
+#1 /home/eloratra/public_html/core/Model.php(137): Database->query()
+#2 /home/eloratra/public_html/models/M_Pesanan.php(42): Model->execute()
+#3 /home/eloratra/public_html/controllers/C_Pesanan.php(110): M_Pesanan->detail()
+#4 /home/eloratra/public_html/core/Route.php(18): C_Pesanan->detail()
+#5 /home/eloratra/public_html/index.php(24): Route->__construct()
+#6 {main}
+  thrown in /home/eloratra/public_html/core/Database.php on line 12
