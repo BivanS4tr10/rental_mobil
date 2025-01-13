@@ -35,19 +35,19 @@
 									<div class="text-center">
 										<h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
 									</div>
-									<?php if(checkSession('success')): ?>
+									<?php if (checkSession('success')): ?>
 										<div class="alert alert-success alert-dismissible fade show" role="alert">
-								  			<?= getSession('success', true) ?>
-								  			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-								    			<span aria-hidden="true">&times;</span>
-								  			</button>
+											<?= getSession('success', true) ?>
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
 										</div>
-									<?php elseif(checkSession('error')): ?>
+									<?php elseif (checkSession('error')): ?>
 										<div class="alert alert-danger alert-dismissible fade show" role="alert">
-								  			<?= getSession('error', true) ?>
-								  			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-								    			<span aria-hidden="true">&times;</span>
-								  			</button>
+											<?= getSession('error', true) ?>
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
 										</div>
 									<?php endif ?>
 									<form class="user" method="POST" action="<?= base_url('auth/login') ?>">
@@ -59,8 +59,8 @@
 										</div>
 										<button class="btn btn-primary btn-user btn-block" name="login">Login</button>
 									</form>
-									
-									
+
+
 								</div>
 							</div>
 						</div>

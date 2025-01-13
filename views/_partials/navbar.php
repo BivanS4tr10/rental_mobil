@@ -1,7 +1,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('dashboard') ?>">
         <div class="sidebar-brand-icon">
-            <img src="uploads/logon.png" width="70" height="60"/>
+            <img src="<?= base_url('uploads/logon.png') ?>" width="70" height="60" />
         </div>
         <div class="sidebar-brand-text mx-3">Ellora Trans Wisata</div>
     </a>
@@ -20,7 +20,7 @@
     <div class="sidebar-heading">
         Master Mobil
     </div>
-    
+
     <li class="nav-item <?= $data == 'merk' ? 'active' : '' ?>">
         <a class="nav-link" href="<?= base_url('merk') ?>">
             <i class="fas fa-fw fa-columns"></i>
@@ -33,7 +33,7 @@
             <span>Data Mobil</span>
         </a>
     </li>
-    
+
     <hr class="sidebar-divider">
     <div class="sidebar-heading">
         Master Pemesan
@@ -51,7 +51,7 @@
             <span>Data Jenis Bayar</span>
         </a>
     </li>
-    
+
     <hr class="sidebar-divider">
     <div class="sidebar-heading">
         Master Pesanan
